@@ -24,7 +24,7 @@ Multi-person **action detection** using **YOLO-Pose** for keypoint extraction an
 
 ---
 
-## 🔧 Requirements & Installation
+# 🔧 Requirements & Installation
 Python **3.8+**
 
 Install dependencies:
