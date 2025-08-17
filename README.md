@@ -14,7 +14,7 @@ Multi-person **action detection** using **YOLO-Pose** for keypoint extraction an
 
 ---
 
-## 📌 Features
+# 📌 Features
 - YOLO-Pose (Ultralytics) to extract 17 COCO keypoints per frame.
 - Temporal features: positions, multi-scale velocities/accelerations, (optional) joint-angle dynamics.
 - **TCN** classifier with dilated temporal convolutions.
