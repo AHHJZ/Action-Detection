@@ -1,6 +1,9 @@
 # 🏃‍♂️ Action-Detection
 End-to-end pipeline for **multi-person action detection** using **YOLO-Pose** for keypoint extraction and a **Temporal Convolutional Network (TCN)** for sequence classification.  
-Supports real-time video/webcam inference, ONNX export, and safety-critical actions like **fall detection**.
+Supports real-time video/webcam inference, ONNX export, and safety-critical actions like **fall detection**.  
+
+The model is trained to recognize the following classes:  
+**Fall, Lie, LikeFall, Siting, Stand, Walking**
 
 > ⚠️ **Note:** The *military salute* class is included **for fun purposes only**.
 
@@ -48,7 +51,7 @@ pure_data/
  │   ├─ seq1/ frame_0001.jpg, frame_0002.jpg, ...
  │   ├─ seq2/ ...
  ├─ Lie/
- ├─ NearFall/    # (previously Likefall)
+ ├─ LikeFall/    
  ├─ Sitting/
  ├─ Stand/
  └─ Walking/
