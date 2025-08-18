@@ -111,7 +111,7 @@ Pretrained weights are provided in the [`weights/`](weights/) folder:
 
 You can download/clone this repo and directly run inference using the provided weights.
 
-# 🚀 Quick Start
+### 🚀 Quick Start
 
 Clone the repository and install dependencies:
 
