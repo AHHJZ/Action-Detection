@@ -102,6 +102,15 @@ runs_maxacc_final/tcn_best_final.pt
 ---
 
 ## 🎥 Inference
+---
+
+
+Pretrained weights are provided in the [`weights/`](weights/) folder:  
+- `tcn_best_final.pt` → best trained TCN checkpoint  
+- `scaler.joblib` → feature normalizer (must be present during inference)  
+
+You can download/clone this repo and directly run inference using the provided weights.
+
 
 **Video:**
 
