@@ -22,3 +22,11 @@ Supports real-time video/webcam inference, ONNX export, and safety-critical acti
 Install dependencies:
 ```bash
 pip install -r requirements.txt
+
+torch>=2.0.0
+torchvision>=0.15.0
+torchaudio>=2.0.0
+opencv-python>=4.8.0
+ultralytics>=8.0.0
+numpy>=1.23.0
+scikit-learn>=1.2.0
