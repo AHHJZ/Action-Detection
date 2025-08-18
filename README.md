@@ -111,7 +111,15 @@ Pretrained weights are provided in the [`weights/`](weights/) folder:
 
 You can download/clone this repo and directly run inference using the provided weights.
 
+# 🚀 Quick Start
 
+Clone the repository and install dependencies:
+
+```bash
+git clone https://github.com/username/Action-Detection.git
+cd Action-Detection
+pip install -r requirements.txt
+```
 **Video:**
 
 ```bash
