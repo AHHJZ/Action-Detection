@@ -164,7 +164,7 @@ torch.onnx.export(
 ## ⚙️ Notes
 
 * Accuracy strongly depends on **dataset quality and size**.
-* Default classes: `Fall`, `Lie`, `NearFall`, `Sitting`, `Stand`, `Walking`.
+* Default classes: `Fall`, `Lie`, `LikeFall`, `Sitting`, `Stand`, `Walking`.
 * `scaler.joblib` is automatically loaded at inference to match training.
 
 ---
