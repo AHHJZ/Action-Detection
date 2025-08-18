@@ -22,7 +22,7 @@ Supports real-time video/webcam inference, ONNX export, and safety-critical acti
 Install dependencies:
 ```bash
 pip install -r requirements.txt
-
+```
 torch>=2.0.0
 torchvision>=0.15.0
 torchaudio>=2.0.0
