@@ -116,7 +116,7 @@ You can download/clone this repo and directly run inference using the provided w
 Clone the repository and install dependencies:
 
 ```bash
-git clone [https://github.com/username/Action-Detection.git](https://github.com/AHHJZ/Action-Detection/tree/main)
+git clone https://github.com/AHHJZ/Action-Detection.git
 cd Action-Detection
 pip install -r requirements.txt
 ```
