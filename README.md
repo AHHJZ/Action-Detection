@@ -48,8 +48,8 @@ Organize your data as: **class folders → sequence folders → frames (images):
 ```
 pure_data/
  ├─ Fall/
- │   ├─ seq1/ frame_0001.jpg, frame_0002.jpg, ...
- │   ├─ seq2/ ...
+ │   ├─ seq001/ frame_001.jpg, frame_002.jpg, ...
+ │   ├─ seq002/ ...
  ├─ Lie/
  ├─ LikeFall/    
  ├─ Sitting/
@@ -58,7 +58,7 @@ pure_data/
 ```
 
 * **Class names** are used as labels.
-* **Sequence folders** must start with `seq` (e.g., `seq1`, `seq_0003`).
+* **Sequence folders** must start with `seq` (e.g., `seq1`, `seq_003`).
 
 ---
 
