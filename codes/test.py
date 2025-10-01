@@ -455,10 +455,7 @@ def main():
     ap.add_argument("--fall_sticky", type=int, default=24)
     ap.add_argument("--fall_conf_thr", type=float, default=0.72)
 
-    # salute overlay
-    ap.add_argument("--salute_img", type=str, default=None, help="nazi2.png")
-    ap.add_argument("--salute_size", type=int, default=220, help="width in px for salute image")
-    ap.add_argument("--salute_corner", type=str, default="tr", choices=["tr","tl","br","bl"])
+
 
     args = ap.parse_args()
     ms_strides = tuple(int(s) for s in args.ms_strides.split(",") if s.strip())
