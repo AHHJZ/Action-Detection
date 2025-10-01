@@ -5,7 +5,7 @@ Supports real-time video/webcam inference, ONNX export, and safety-critical acti
 The model is trained to recognize the following classes:  
 **Fall, Lie, LikeFall, Siting, Stand, Walking**
 
-> ⚠️ **Note:** The *military salute* class is included **for fun purposes only**.
+
 
 ---
 
